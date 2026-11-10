@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Afegbua Ziyard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Afegbua Ziyard</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html">Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <h1>Contact Me</h1>
+
+        <section class="card">
+            <form id="contactForm" novalidate>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your full name">
+                <span class="error" id="nameError"></span>
+
+                <label for="email">Email Address</label>
+                <input type="text" id="email" placeholder="you@example.com">
+                <span class="error" id="emailError"></span>
+
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="Digits only, e.g. 08012345678">
+                <span class="error" id="phoneError"></span>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message here"></textarea>
+                <span class="error" id="messageError"></span>
+
+                <button type="submit" class="btn">Send Message</button>
+                <p id="successMsg" class="success"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Afegbua Ziyard. All rights reserved.</p>
+    </footer>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

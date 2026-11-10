@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Planner | Afegbua Ziyard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Afegbua Ziyard</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html">Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <h1>Academic Planner</h1>
+
+        <section class="card">
+            <h2>My Tasks</h2>
+            <div class="planner-form">
+                <input type="text" id="taskInput" placeholder="Enter a task, e.g. Finish COS 106 project">
+                <button id="addBtn" class="btn">Add</button>
+            </div>
+            <ul id="taskList" class="task-list"></ul>
+            <p id="counter" class="counter"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Afegbua Ziyard. All rights reserved.</p>
+    </footer>
+
+    <script src="js/planner.js"></script>
+</body>
+</html>
